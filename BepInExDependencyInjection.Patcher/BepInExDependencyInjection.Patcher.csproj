@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="../Common.targets" />
+
+    <ItemGroup>
+        <PackageReference Include="BepInEx.AutoPlugin" Version="1.1.0" PrivateAssets="all" />
+        <PackageReference Include="BepInEx.Preloader.Core" Version="6.0.0-be.697" />
+        <PackageReference Include="Mono.Cecil" Version="0.11.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BepInExDependencyInjection.Core\BepInExDependencyInjection.Core.csproj" />
+    </ItemGroup>
+
+    <Target Name="Copy" AfterTargets="Build" Condition="'$(AmongUs)' != ''">
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(AmongUs)/BepInEx/patchers/" UseSymboliclinksIfPossible="true" />
+    </Target>
+
+</Project>

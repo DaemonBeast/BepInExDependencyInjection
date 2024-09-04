@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BepInExDependencyInjection.Core", "BepInExDependencyInjection.Core\BepInExDependencyInjection.Core.csproj", "{B2BE2055-93F7-466A-AFA6-62F97E475635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BepInExDependencyInjection.Patcher", "BepInExDependencyInjection.Patcher\BepInExDependencyInjection.Patcher.csproj", "{53805242-4636-475D-B4A6-3BAC129E7DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2BE2055-93F7-466A-AFA6-62F97E475635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BE2055-93F7-466A-AFA6-62F97E475635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BE2055-93F7-466A-AFA6-62F97E475635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BE2055-93F7-466A-AFA6-62F97E475635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53805242-4636-475D-B4A6-3BAC129E7DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53805242-4636-475D-B4A6-3BAC129E7DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53805242-4636-475D-B4A6-3BAC129E7DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53805242-4636-475D-B4A6-3BAC129E7DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
